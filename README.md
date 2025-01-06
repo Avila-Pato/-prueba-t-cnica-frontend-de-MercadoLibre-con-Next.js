@@ -1,29 +1,44 @@
-MercadoLibre challenge
-Debemos crear un clon de la página de detalle de producto de Mercado Libre.
+# MercadoLibre Challenge
 
-API
-Podés encontrar los mocks necesarios para empezar a trabajar en ./src/product/mocks con sus respectivos types. Sin embargo, algunos de los campos necesarios para completar la pantalla no están ahí, queda en vos agregarlos!
+Este proyecto consiste en crear un clon de la página de detalle de producto de Mercado Libre. 
 
-Definición funcional
-Debemos intentar llegar a un resultado visual lo más aproximado posible, siendo los siguientes los elementos requeridos.
+## API
+Podés encontrar los mocks necesarios para empezar a trabajar en `./src/product/mocks` con sus respectivos types. Sin embargo, algunos de los campos necesarios para completar la pantalla no están incluidos, por lo que queda en vos agregarlos.
 
-Carousel que cambia de imágen al clickear (no en hover).
-Area de detalle del producto (condición, cantidad vendida, título, precio).
-Botones de Comprar ahora y Agregar al carrito.
-Sección de preguntas y respuestas.
-El resto de los elementos son opcionales pero altamente recomendados.
+## Definición Funcional
+El objetivo es lograr un resultado visual lo más aproximado posible. Los elementos requeridos son los siguientes:
 
-Definiciones técnicas
-La aplicación debe estar publicada y debe ser accesible mediante un link.
-El código de la aplicación debe estar subida a un repositorio de público acceso.
-El repositorio cuenta con TypeScript y ChakraUI ya configurados, pero cualquier librería puede ser usada.
+- **Carousel**: Cambia de imagen al hacer clic (no en hover).
+- **Área de detalle del producto**:
+  - Condición del producto.
+  - Cantidad vendida.
+  - Título.
+  - Precio.
+- **Botones**:
+  - Comprar ahora.
+  - Agregar al carrito.
+- **Sección de preguntas y respuestas**.
 
-Puntos extra
-Poder agregar comentarios (no deben guardarse en ningun lado)
-Poder puntuar opiniones
-Poder ver opiniones por tipo
-Modo oscuro
-No te quedes acá, el repositorio ya tiene el router configurado para agregar la pantalla de inicio, agregá todas las pantallas que quieras!
+> **Nota**: El resto de los elementos son opcionales, pero su implementación es altamente recomendada.
 
-Disclaimer
-Intenten usar logos diferentes o en su defecto agregar un footer o header indicando que la web se trata de un challenge para evitar bans de servicios por phishing.
+## Definiciones Técnicas
+- La aplicación debe estar publicada y ser accesible mediante un link.
+- El código debe estar subido a un repositorio de acceso público.
+- El repositorio ya cuenta con TypeScript y Chakra UI configurados, pero podés usar cualquier otra librería que consideres adecuada.
+
+## Puntos Extra
+- Agregar comentarios (no es necesario que se guarden en ningún lado).
+- Posibilidad de puntuar opiniones.
+- Ver opiniones por tipo.
+- **Modo oscuro**.
+
+> ¡No te limites a la pantalla de detalle! El repositorio ya tiene el router configurado para que agregues más pantallas como una página de inicio u otras funcionalidades.
+
+## Disclaimer
+Para evitar posibles sanciones por phishing:
+- Intentá usar logos diferentes.
+- En su defecto, agregá un footer o header indicando que la web es un challenge.
+
+---
+
+¡Buena suerte con el challenge!
