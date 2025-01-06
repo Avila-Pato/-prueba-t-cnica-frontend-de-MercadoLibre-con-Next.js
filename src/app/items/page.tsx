@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Link from "next/link";
 import React from "react";
 
 export default async function ItemsPage({
@@ -31,7 +32,7 @@ export default async function ItemsPage({
     <section>
       <article className="grid gap-4">
         {results.map((item) => (
-          <div key={item.id} className="flex gap-4">
+          <Link href={`/items/${item.id}`} key={item.id} className="flex gap-4">
             <img src={item.thumbnail} alt={item.title}></img>
             <div>
               <p className="text-xl font-bold">
@@ -45,7 +46,7 @@ export default async function ItemsPage({
             <span className="ml-auto text-sm lowercase opacity-50">
               {item.address?.city_name || "No ciudad"}
             </span>
-          </div>
+          </Link>
         ))}
       </article>
     </section>
