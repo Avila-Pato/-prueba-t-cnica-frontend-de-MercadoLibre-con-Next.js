@@ -17,6 +17,7 @@ const ItemsList = async ({ search }: { search: string }) => {
         {results.map((item: { id: string; thumbnail: string; title: string; price: number; address?: { city_name?: string } }) => (
           <Link key={item.id} className="flex gap-4" href={`/items/${item.id}`}>
             <img src={item.thumbnail} alt={item.title}></img>
+            
             <div>
               <p className="text-xl font-bold">
                 {Number(item.price).toLocaleString("es-CL", { style: "currency", currency: "CLP" })}

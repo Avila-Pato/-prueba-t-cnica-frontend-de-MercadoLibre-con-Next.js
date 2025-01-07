@@ -1,7 +1,9 @@
+
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Suspense } from "react";
+import  Link  from "next/link";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,6 +33,7 @@ export default function RootLayout({
         <header className="flex h-16 bg-yellow-400 px-4">
           <form action="/items" className="m-auto flex flex-1 max-w-screen-xl">
           {/* form action nos diriga a /items */}
+          <Link className="text-white px-5 font-bold" href="/" >MercadoLibre</Link>
             <input type="text" className=" h-8 flex-1 px-2  "  name="search"/>
             <button type="submit" className="h-8 bg-gray-300 px-2 py-1 text-slate-700">
               Buscar
